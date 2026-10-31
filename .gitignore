@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data (kept out of git until data rules are decided)
+Dane/
+Dane.zip

@@ -1,0 +1,24 @@
+[project]
+name = "ankietabranzydata"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "khady", email = "67322396+khady90@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "polars>=2.1.0",
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+ankietabranzydata = "ankietabranzydata:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
