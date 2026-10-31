@@ -1,20 +1,19 @@
 # AnkietaBranzyData
 
-Analiza danych z Wielkiej Ankiety Branży Data oraz dashboard w Streamlit.
+Data analysis of the Wielka Ankieta Branży Data (Big Data Industry Survey) and a Streamlit dashboard.
 
-## Źródło danych
+## Data source
 
-Źródło: Wielka Ankieta Branży Data, Crappy Data.
+Source: Wielka Ankieta Branży Data, Crappy Data.
 
-Surowe dane nie są częścią tego repozytorium — zgodnie z zasadami korzystania z danych
-nie mogą być publicznie udostępniane. Publikowane są wyłącznie wyniki analiz
-(wykresy, statystyki, zestawienia, wnioski), które nie pozwalają na identyfikację
-poszczególnych respondentów.
+The raw data is not part of this repository. Under the data usage rules, it must not be
+shared publicly. Only analysis results (charts, statistics, summaries, conclusions) that
+do not allow individual respondents to be identified are published.
 
-## Uruchomienie
+## Setup
 
 ```bash
 uv sync
 ```
 
-Pliki z danymi umieść w katalogu `Dane/` (jest wykluczony z gita w `.gitignore`).
+Place the data files in the `Dane/` directory (it is excluded from git in `.gitignore`).
